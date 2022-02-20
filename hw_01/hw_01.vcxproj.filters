@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="task1">
+      <UniqueIdentifier>{27bc7d8e-7b59-453f-8240-fe0a352ba740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="task1\src">
+      <UniqueIdentifier>{34c3e738-e7c2-41df-99a9-218a01c6304e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="task1\include">
+      <UniqueIdentifier>{c3894ec7-d83f-43f0-b56a-53db02fd6ee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="task2">
+      <UniqueIdentifier>{5a60fccf-1313-4593-9d16-ba4542d5153d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="task2\src">
+      <UniqueIdentifier>{cb3c64a7-240b-42de-b548-6765117d5327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="task2\include">
+      <UniqueIdentifier>{ffed4f51-8b71-42f0-a95c-f2d7e50eb6dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="task3">
+      <UniqueIdentifier>{9dfc07c2-0629-466f-a26a-6f147a02f3c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="task3\Src">
+      <UniqueIdentifier>{48346f0c-c2c1-43d8-8f12-06cd37413cfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="task3\include">
+      <UniqueIdentifier>{1dcdc79d-e1a5-4928-97ca-583ce816de90}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="hw_01.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>task1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="task1.cpp">
+      <Filter>task1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="task2.cpp">
+      <Filter>task2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="task3.cpp">
+      <Filter>task3\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Person.h">
+      <Filter>task1\include</Filter>
+    </ClInclude>
+    <ClInclude Include="task1.h">
+      <Filter>task1\include</Filter>
+    </ClInclude>
+    <ClInclude Include="task2.h">
+      <Filter>task2\include</Filter>
+    </ClInclude>
+    <ClInclude Include="task3.h">
+      <Filter>task3\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
